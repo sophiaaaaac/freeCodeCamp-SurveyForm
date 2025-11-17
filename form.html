@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Cafe Survey</h1>
+    <p id="description">Thanks for dining at our Cafe! Please take this short survey on your experience to help us improve :)</p>
+    <form id="survey-form">
+      <label id="name-label">Name</label><br>
+      <input id="name" type="text" placeholder="John Smith" required><br><br>
+
+      <label id="email-label">Email</label><br>
+      <input id="email" type="email" required placeholder="johnsmith@gmail.com"><br><br>
+
+      <label id="number-label">Age</label><br>
+      <input id="number" type="number" min="18" max="100" placeholder="18"><br><br>
+      
+      <select id="dropdown">
+        <option type="radio" value="belco" name="area">Belconnen</option>
+        <option type="radio" value="cbd" name="area">Canberra City</option>
+      </select><br><br>
+
+      <input type="radio" value="defs" name="recomm"><br>
+      <input type="radio" value="maybe" name="recomm">
+      <br><br>
+
+      <input type="checkbox" value="time" name="improv"><br>
+      <input type="checkbox" value="options" name="improv"><br><br>
+
+      <label>Comments</label><br>
+      <textarea rows="5"></textarea><br><br>
+
+      <button id="submit" type="submit">Submit</button>
+
+    </form>
+    
+  </body>
+</html>
