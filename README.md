@@ -1,6 +1,6 @@
 <h1>freeCodeCamp Survey Form >⩊< </h1>
 This is the Survey Form Certification Project which is apart of the Responsive Web Design Course on <a href="https://www.freecodecamp.org/learn" target="_blank">freeCodeCamp</a>
-<h3>Skills I learnt in this project:</h3>
+<h3>Skills I learnt from this project:</h3>
 <ul>
   <li>Semantic HTML Structure for Accessibility</li>
   <li>Form Validation & Attributes</li>
